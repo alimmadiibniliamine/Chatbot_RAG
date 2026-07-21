@@ -41,7 +41,7 @@ class Config:
     # -------- Ollama (LLM local) --------
     # Modèle à utiliser : mistral / llama3 / phi3
     # Mistral  cloud est un bon compromis : 4 Go, rapide, multilingue.
-    OLLAMA_MODEL    = os.getenv("OLLAMA_MODEL", "ministral-3:8b-cloud")
+    OLLAMA_MODEL    = os.getenv("OLLAMA_MODEL", "minimax-m2.5:cloud")
     OLLAMA_BASE_URL = os.getenv("OLLAMA_BASE_URL", "http://localhost:11434")
 
     # -------- Embeddings (HuggingFace local) --------
