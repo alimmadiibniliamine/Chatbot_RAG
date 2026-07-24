@@ -106,7 +106,7 @@ streamlit run frontend/streamlit_app.py
 
 Créé automatiquement au premier démarrage :
 
-- **Email** : `[email protected]`
+- **Email** : `admin@kandorlab.com`
 - **Mot de passe** : `admin123`
 
 (modifiables via `.env`)
