@@ -57,7 +57,7 @@ python -m venv venv
 source venv/bin/activate              # Linux / macOS
 # venv\Scripts\activate               # Windows
 
-pip install -r requirements.txt
+
 ```
 
 ### 2. Installer Ollama et télécharger un modèle
@@ -84,6 +84,8 @@ Ollama démarre automatiquement un serveur sur `http://localhost:11434`.
 ```bash
 cp .env.example .env
 # Éditez .env si nécessaire (modèle, mots de passe…)
+génerer les clés avec la commande :  python -c "import secrets; print(secrets.token_hex(32))"  
+
 ```
 
 ### 4. Lancer le backend Flask

@@ -58,7 +58,7 @@ class Config:
 
     # -------- Admin par défaut --------
     # Créé automatiquement au premier démarrage.
-    DEFAULT_ADMIN_EMAIL    = os.getenv("DEFAULT_ADMIN_EMAIL", "[email protected]")
+    DEFAULT_ADMIN_EMAIL    = os.getenv("DEFAULT_ADMIN_EMAIL", "admin@kandorlab.com")
     DEFAULT_ADMIN_PASSWORD = os.getenv("DEFAULT_ADMIN_PASSWORD", "admin123")
 
 
